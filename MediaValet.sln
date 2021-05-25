@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8DAD53D8-D6E7-467D-912B-EAE3D95DFF4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderAgent", "src\Agent\OrderAgent\OrderAgent.csproj", "{C1330863-A9F4-4AB6-9CB7-7CAD0D3C173B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agent", "Agent", "{4E97B48B-B488-4ED9-A8F0-49AFC94A4364}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderAgent.Domain", "src\Agent\OrderAgent.Domain\OrderAgent.Domain.csproj", "{16E0CA1D-6D50-40E0-90D6-42266852B284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supervisor", "Supervisor", "{114E5C5F-DF0C-412C-BF21-152EB1107ECD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSupervisor", "src\Supervisor\OrderSupervisor\OrderSupervisor.csproj", "{00969AF1-107E-4DED-935A-E89B25F31762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaValet.Core", "src\MediaValet.Core\MediaValet.Core.csproj", "{9092978C-2B48-44B7-B794-29B3B095049B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSupervisor.Domain", "src\Supervisor\OrderSupervisor.Domain\OrderSupervisor.Domain.csproj", "{4F00C63C-AAB4-481E-A17B-398ADE350A11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0716D3B5-FD20-4638-AA14-508B4CD021C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaValet.Infrastructure.Storage.Abstractions", "src\Infrastructure\MediaValet.Infrastructure.Storage.Abstractions\MediaValet.Infrastructure.Storage.Abstractions.csproj", "{2EB633CF-4209-432E-9927-E3077663B5C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{EB13D588-32DE-4FD3-A4AC-7CCE99CD0989}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaValet.Infrastructure.Storage.Azure", "src\Infrastructure\MediaValet.Infrastructure.Storage.Azure\MediaValet.Infrastructure.Storage.Azure.csproj", "{4A3337AF-A4DD-4CA7-A8CF-0C26BDBADB9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1330863-A9F4-4AB6-9CB7-7CAD0D3C173B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1330863-A9F4-4AB6-9CB7-7CAD0D3C173B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1330863-A9F4-4AB6-9CB7-7CAD0D3C173B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1330863-A9F4-4AB6-9CB7-7CAD0D3C173B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E0CA1D-6D50-40E0-90D6-42266852B284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E0CA1D-6D50-40E0-90D6-42266852B284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E0CA1D-6D50-40E0-90D6-42266852B284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E0CA1D-6D50-40E0-90D6-42266852B284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00969AF1-107E-4DED-935A-E89B25F31762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00969AF1-107E-4DED-935A-E89B25F31762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00969AF1-107E-4DED-935A-E89B25F31762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00969AF1-107E-4DED-935A-E89B25F31762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9092978C-2B48-44B7-B794-29B3B095049B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9092978C-2B48-44B7-B794-29B3B095049B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9092978C-2B48-44B7-B794-29B3B095049B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9092978C-2B48-44B7-B794-29B3B095049B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F00C63C-AAB4-481E-A17B-398ADE350A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F00C63C-AAB4-481E-A17B-398ADE350A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F00C63C-AAB4-481E-A17B-398ADE350A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F00C63C-AAB4-481E-A17B-398ADE350A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB633CF-4209-432E-9927-E3077663B5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB633CF-4209-432E-9927-E3077663B5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB633CF-4209-432E-9927-E3077663B5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB633CF-4209-432E-9927-E3077663B5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3337AF-A4DD-4CA7-A8CF-0C26BDBADB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3337AF-A4DD-4CA7-A8CF-0C26BDBADB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3337AF-A4DD-4CA7-A8CF-0C26BDBADB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3337AF-A4DD-4CA7-A8CF-0C26BDBADB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1330863-A9F4-4AB6-9CB7-7CAD0D3C173B} = {4E97B48B-B488-4ED9-A8F0-49AFC94A4364}
+		{4E97B48B-B488-4ED9-A8F0-49AFC94A4364} = {8DAD53D8-D6E7-467D-912B-EAE3D95DFF4C}
+		{16E0CA1D-6D50-40E0-90D6-42266852B284} = {4E97B48B-B488-4ED9-A8F0-49AFC94A4364}
+		{114E5C5F-DF0C-412C-BF21-152EB1107ECD} = {8DAD53D8-D6E7-467D-912B-EAE3D95DFF4C}
+		{00969AF1-107E-4DED-935A-E89B25F31762} = {114E5C5F-DF0C-412C-BF21-152EB1107ECD}
+		{9092978C-2B48-44B7-B794-29B3B095049B} = {8DAD53D8-D6E7-467D-912B-EAE3D95DFF4C}
+		{4F00C63C-AAB4-481E-A17B-398ADE350A11} = {114E5C5F-DF0C-412C-BF21-152EB1107ECD}
+		{0716D3B5-FD20-4638-AA14-508B4CD021C6} = {8DAD53D8-D6E7-467D-912B-EAE3D95DFF4C}
+		{2EB633CF-4209-432E-9927-E3077663B5C9} = {0716D3B5-FD20-4638-AA14-508B4CD021C6}
+		{EB13D588-32DE-4FD3-A4AC-7CCE99CD0989} = {0716D3B5-FD20-4638-AA14-508B4CD021C6}
+		{4A3337AF-A4DD-4CA7-A8CF-0C26BDBADB9F} = {EB13D588-32DE-4FD3-A4AC-7CCE99CD0989}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA10764-1625-41A7-8B19-9094EF65C3B0}
+	EndGlobalSection
+EndGlobal
